@@ -15,7 +15,7 @@ const Services = ({ theme }) => {
                 pretium. Turpis tempus pharetra
             </h1>
             <div className="mt-8">
-                <div className="grid grid-cols-1 xl:grid-cols-4 gap-9 px-4 py-3 items-center  ">
+                <div className="grid grid-cols-1 xl:grid-cols-4 gap-9  py-3 items-center  ">
                     <div className="w-[330px] h-[346px] bg-[#F8F8F8] rounded-md">
                         <div className=" p-4">
                             <img
