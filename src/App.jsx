@@ -5,7 +5,9 @@ import Navbar from "./components/Navbar";
 import { useState } from "react";
 import Services from "./components/Services";
 import MyProjects from "./components/MyProjects";
-import Testimonials from "./assets/Testimonials";
+import Testimonials from "./components/Testimonials";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
     const [theme, setTheme] = useState(
@@ -30,8 +32,12 @@ function App() {
                 <Aboutme theme={theme} />
                 <Services theme={theme} />
                 <MyProjects theme={theme} />
-                <Testimonials theme={theme} />
             </div>
+            <Testimonials theme={theme} />
+            <div className="flex flex-col container mx-auto">
+                <Contacts theme={theme} />
+            </div>
+            <Footer theme={theme} />
         </div>
     );
 }
