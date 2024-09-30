@@ -16,7 +16,7 @@ const Home = ({ theme }) => {
                         Muhammad Umar
                     </h1>
                     <h1 className="text-6xl  mb-2 font-bold">UI & UX</h1>
-                    <h1 className="text-6xl  mb-2 font-bold ml-32">Designer</h1>
+                    <h1 className="text-6xl  mb-2 font-bold ml-24">Designer</h1>
                     <h1 className="text-base mb-2 ">
                         Lorem ipsum dolor sit amet consectetur. Tristique amet
                         sed massa nibh lectus netus in. Aliquet donec morbi

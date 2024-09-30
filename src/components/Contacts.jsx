@@ -10,13 +10,13 @@ const Contacts = ({ theme }) => {
             <h1 className="text-5xl mb-2 font-bold text-center">
                 Lets Design Together
             </h1>
-            <h1 className="text-base mb-2 text-center mt-6">
+            <h1 className="text-base mb-2 text-center mt-6 mx-2 lg:mx-0">
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
                 nibh lectus <br /> netus in. Aliquet donec morbi convallis
                 pretium. Turpis tempus pharetra
             </h1>
 
-            <div className="my-8 flex justify-center" >
+            <div className="my-8 flex justify-center mx-4 lg:mx-0" >
                 <input
                     type="text"
                     placeholder="Enter Your Email "

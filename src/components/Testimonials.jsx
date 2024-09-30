@@ -18,7 +18,7 @@ const Testimonials = ({ theme }) => {
             </h1>
             <div className="mt-8">
                 <div class="grid grid-cols-1 xl:grid-cols-3 gap-16 px-1 py-3   ">
-                    <div class="flex justify-center bg-[#F8F8F8] mx-auto px-8 py-8 rounded-md opacity-25">
+                    <div className="flex justify-center bg-[#F8F8F8] mx-auto px-8 py-8 rounded-md opacity-25 hidden lg:block">
                         <img
                             src={user2}
                             alt="home"
@@ -39,7 +39,7 @@ const Testimonials = ({ theme }) => {
                             <p>CEO</p>
                         </div>
                     </div>
-                    <div class="flex justify-center bg-[#F8F8F8] mx-auto px-8 py-8 rounded-md">
+                    <div className="flex justify-center bg-[#F8F8F8] mx-auto px-8 py-8 rounded-md">
                         <img
                             src={user1}
                             alt="home"
@@ -60,7 +60,7 @@ const Testimonials = ({ theme }) => {
                             <p>CEO</p>
                         </div>
                     </div>
-                    <div class="flex justify-center bg-[#F8F8F8] mx-auto px-8 py-8 rounded-md opacity-25">
+                    <div className="flex justify-center bg-[#F8F8F8] mx-auto px-8 py-8 rounded-md opacity-25 hidden lg:block">
                         <img
                             src={user2}
                             alt="home"
