@@ -5,10 +5,12 @@ import app from "../assets/app.png";
 import graphic from "../assets/graphics.png";
 
 const Services = ({ theme }) => {
+    console.log(theme);
     return (
-        <div>
-            <h1 className="text-5xl mb-2 font-bold text-center mt-8">Services</h1>
-            <h1 className="text-base mb-2 text-center">
+        <div className={`text-black`}>
+
+            <h1 className={`text-5xl mb-2 font-bold text-center mt-8 ${theme === 'dark' ? 'text-black' : 'text-white'}`}>Services</h1>
+            <h1 className={`text-base mb-2 text-center mt-6 ${theme === 'dark' ? 'text-black' : 'text-white'}`}>
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
                 nibh lectus <br /> netus in. Aliquet donec morbi convallis
                 pretium. Turpis tempus pharetra
@@ -22,8 +24,8 @@ const Services = ({ theme }) => {
                                 alt="home"
                                 className="w-[60px] h-[60px] mt-12"
                             />
-                            <h1 className="text-2xl font-bold mt-4">UI/UX</h1>
-                            <h1 className="text-base  mt-4">
+                            <h1 className={`text-2xl font-bold mt-4 }`}>UI/UX</h1>
+                            <h1 className={`text-base  mt-4`}>
                                 Lorem ipsum dolor sit amet consectetur.
                                 Tristique amet sed massa nibh lectus netus in.
                                 Aliquet donec morbi convallis pretium. Turpis
