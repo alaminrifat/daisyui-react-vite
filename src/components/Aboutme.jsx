@@ -4,7 +4,7 @@ import Progress from "./Progress";
 
 const Aboutme = ({ theme }) => {
     return (
-        <>
+        <div className="mt-24">
             <div
                 className={`min-h-screen grid grid-cols-1 xl:grid-cols-2 gap-14 px-4 pt-3  mt-4 ${
                     theme === "dark"
@@ -33,7 +33,8 @@ const Aboutme = ({ theme }) => {
                     <Progress percent="90%" />
                 </div>
             </div>
-        </>
+            
+        </div>
     );
 };
 

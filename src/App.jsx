@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import { useState } from "react";
 import Services from "./components/Services";
 import MyProjects from "./components/MyProjects";
+import Testimonials from "./assets/Testimonials";
 
 function App() {
     const [theme, setTheme] = useState(
@@ -29,6 +30,7 @@ function App() {
                 <Aboutme theme={theme} />
                 <Services theme={theme} />
                 <MyProjects theme={theme} />
+                <Testimonials theme={theme} />
             </div>
         </div>
     );
