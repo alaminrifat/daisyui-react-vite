@@ -92,7 +92,20 @@ const Testimonials = ({ theme }) => {
                     </div>
                 </div> */}
         <Swiper
-          slidesPerView={3}
+         breakpoints={{
+            // when window width is >= 640px (mobile view)
+            640: {
+              slidesPerView: 1,
+            },
+            // when window width is >= 768px (tablet view)
+            768: {
+              slidesPerView: 2,
+            },
+            // when window width is >= 1024px (desktop view)
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
           spaceBetween={40}
             centeredSlides={true}
           autoplay={{
