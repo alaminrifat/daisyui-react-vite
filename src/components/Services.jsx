@@ -7,9 +7,8 @@ import graphic from "../assets/graphics.png";
 const Services = ({ theme }) => {
     console.log(theme);
     return (
-        <div className={`text-black`}>
-
-            <h1 className={`text-5xl mb-2 font-bold text-center mt-8 ${theme === 'dark' ? 'text-black' : 'text-white'}`}>Services</h1>
+        <div className={`text-black mt-24`}>
+            <h1 className={`text-5xl mb-2 font-bold text-center  ${theme === 'dark' ? 'text-black' : 'text-white'}`}>Services</h1>
             <h1 className={`text-base mb-2 text-center mt-6 ${theme === 'dark' ? 'text-black' : 'text-white'}`}>
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
                 nibh lectus <br /> netus in. Aliquet donec morbi convallis

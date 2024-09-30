@@ -4,7 +4,7 @@ const Home = ({ theme }) => {
     return (
         <>
             <div
-                className={`min-h-screen grid grid-cols-1 xl:grid-cols-2 gap-14 px-4 pt-3  mt-4 ${
+                className={` grid grid-cols-1 xl:grid-cols-2 gap-14 px-4 pt-3 mt-3 ${
                     theme === "dark"
                         ? "bg-white text-black"
                         : "bg-gray-900 text-white"
