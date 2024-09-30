@@ -13,7 +13,7 @@ const MyProjects = ({ theme }) => {
             </h1>
             <div className="mt-8">
                 <div className="flex flex-wrap gap-3 justify-center">
-                    <div className="btn btn-sm ">All</div>
+                    <div className="btn btn-sm  ">All</div>
                     <div className="btn btn-sm ">UI/UX</div>
                     <div className="btn btn-sm bg-[#FD6F00] text-white hover:bg-[#FD6F00] border-0 ">
                         Web Design

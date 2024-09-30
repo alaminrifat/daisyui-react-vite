@@ -2,7 +2,7 @@ import React from "react";
 
 const Progress = ({percent = "90%"}) => {
     return (
-        <div className="w-[75%]">
+        <div className="w-[100%] md:w-[75%]">
             <div className="py-1 relative min-w-full">
                 <div className="h-2 bg-gray-200 rounded-full">
                     <div

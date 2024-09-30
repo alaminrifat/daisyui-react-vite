@@ -4,7 +4,7 @@ import Progress from "./Progress";
 
 const Aboutme = ({ theme }) => {
     return (
-        <div className="mt-10 w-full">
+        <div className="w-full lg:w-full  mt-10 ">
             <div
                 className={` grid grid-cols-1 xl:grid-cols-2 gap-14 px-4 pt-3  mt-4 ${
                     theme === "dark"
@@ -12,13 +12,13 @@ const Aboutme = ({ theme }) => {
                         : "bg-gray-900 text-white"
                 }`}
             >
-                <div className="flex flex-col items-start">
+                <div className="flex flex-col items-start"> 
                     <img src={about} alt="home" className="w-[65%]" />
                 </div>
 
                 <div className="mt-24">
-                    <h1 className="text-5xl mb-2 font-bold ">About Me</h1>
-                    <h1 className="text-base mb-2 w-3/4 ">
+                    <h1 className="text-5xl mb-2 font-bold text-center ">About Me</h1>
+                    <h1 className="text-base mb-2 w-full md:w-3/4 text-justify">
                         Lorem ipsum dolor sit amet consectetur. Tristique amet
                         sed massa nibh lectus netus in. Aliquet donec morbi
                         convallis pretium. Turpis tempus pharetra
