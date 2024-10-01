@@ -9,7 +9,7 @@ const Services = ({ theme }) => {
     return (
         <div className={`text-black mt-24 p-4`}>
             <h1 className={`text-5xl mb-2 font-bold text-center  ${theme === 'dark' ? 'text-black' : 'text-white'}`}>Services</h1>
-            <h1 className={`text-base mb-2 mt-6 text-justify ${theme === 'dark' ? 'text-black' : 'text-white'}`}>
+            <h1 className={`text-base mb-2 mt-6 text-justify lg:text-center ${theme === 'dark' ? 'text-black' : 'text-white'}`}>
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
                 nibh lectus <br /> netus in. Aliquet donec morbi convallis
                 pretium. Turpis tempus pharetra
